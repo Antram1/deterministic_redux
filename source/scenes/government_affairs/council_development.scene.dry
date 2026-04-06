@@ -15,6 +15,7 @@ As we have made our work councils the basis of governance in Germany, questions 
 - @expand_unemployed: Expand unemployed councils.
 - @no_change: Make no changes.
 - @easy_discard
+- @cancel_advisor_action
 
 @expand_peasant
 subtitle: -1 budget.
