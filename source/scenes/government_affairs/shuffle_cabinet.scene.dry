@@ -30,6 +30,7 @@ Agriculture: [+ agriculture_minister_party +]
 - @extra_shuffle: Can we change our governing coalition entirely?
 - @root: No, there is no need.
 - @easy_discard
+- @cancel_advisor_action
 
 @shuffle
 on-arrival: coalition_dissent += 1; month_actions += 1
