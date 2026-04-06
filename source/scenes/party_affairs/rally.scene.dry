@@ -15,6 +15,7 @@ The Nazi SA has disrupted our rally! Their street troops are preventing us from 
 - @rb_protect: Use the Reichsbanner to protect our rally.
 - @both_protect: The police and Reichsbanner should work together to protect our rally.
 - @cancel: Cancel the rally.
+- @cancel_advisor_action
 
 @police_protect
 view-if: spd_prussia == 1
@@ -80,6 +81,7 @@ Mass rallies are a common feature of social democratic life, especially in the l
 - @weimar_2: A joint rally by the Weimar parties on behalf of our economic plan, tauting it as a republican compromise.
 - @local: A mixture of various local and national concerns that resonate most with the audience.
 - @easy_discard
+- @cancel_advisor_action
 
 @class_struggle
 on-arrival: workers_spd += 4*(1-dissent); unemployed_spd += 3*(1-dissent) if left_strength > reformist_strength; workers_spd += 4*(1-dissent) if nationalization_progress > 0; unemployed_spd += 3*(1-dissent) if nationalization_progress > 0; left_strength += 5; left_dissent -= 5; old_middle_spd -= 3; new_middle_spd -= 2 if not new_middle_conscious; socialism += 2*(1-dissent)
