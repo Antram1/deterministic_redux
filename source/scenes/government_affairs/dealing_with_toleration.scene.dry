@@ -20,6 +20,7 @@ We are currently acting as external support to the government of Chancellor [+ c
 - @new_grand_coalition
 - @stay_course: Stay the course, for stability's sake.
 - @easy_discard
+- @cancel_advisor_action
 
 @break_toleration
 view-if: not constructive_vonc
