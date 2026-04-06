@@ -20,7 +20,7 @@ How do we reduce tensions with the coalition?
 - @bring_down: Instead, we will bring down the government with a no-confidence vote, and call for new elections.
 - @no_change: Take none of these actions.
 - @easy_discard
-
+- @cancel_advisor_action
 
 @promise_cuts
 on-arrival: workers_spd -= 5; unemployed_spd -= 6; workers_kpd += 3; workers_sapd += 2 if sapd_consolidated == 1; unemployed_kpd += 2; unemployed_sapd += 1 if sapd_consolidated == 1; workers_kpd += 2 if sapd_consolidated != 1; unemployed_kpd += 1 if sapd_consolidated != 1; unemployed_nsdap += 3; left_dissent += 10; labor_dissent += 5; welfare -= 1; budget += 1; coalition_dissent = 0
