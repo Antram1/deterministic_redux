@@ -1,0 +1,17 @@
+title: RNG Remover
+is-pinned-card: true
+tags: advisor
+card-image: img/Vorwaerts_nr_1.png
+on-arrival: last_advisor_action = 1
+new-page: true 
+
+= RNG Remover
+
+With the RNG remover, we can more easily control party affairs.
+
+- #party_affairs
+- @back: Return to main
+
+@back
+on-arrival: last_advisor_action = 0
+go-to: root
