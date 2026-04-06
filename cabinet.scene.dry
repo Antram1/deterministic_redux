@@ -1,0 +1,18 @@
+title: Cabinet
+is-pinned-card: true
+tags: advisor
+card-image: img/muller_cabinet.jpg
+view-if: time >= 6
+on-arrival: last_advisor_action = 1
+new-page: true 
+
+= Cabinet
+
+With the RNG remover, we can more easily control government affairs.
+
+- #govt_affairs
+- @back: Return to main
+
+@back
+on-arrival: last_advisor_action = 0
+go-to: root
