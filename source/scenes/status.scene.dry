@@ -27,9 +27,9 @@ SPD position: [? if spd_toleration : toleration ?][? if spd_in_government : in g
 
 [? if spd_in_government and (in_left_front or in_popular_front): KPD coalition dissent: [+ kpd_coalition_dissent : coalition_dissent +] ?]
 
-Internal dissent: [+ dissent_percent : dissent +]
+Internal dissent: [+ dissent_percent +]
 
-[? if communist_influence_seen : KPD influence: [+ kpd_influence : kpd_influence +] ?]
+[? if communist_influence_seen : KPD influence: [+ kpd_influence +] ?]
 
 = Government
 
@@ -79,29 +79,29 @@ Economic growth: [+ economic_growth_2 +]%
 = Inter-party Relations
 
 
-Z: [+ z_relation : relationships +]
+Z: [+ z_relation +]
 
-DDP: [+ ddp_relation : relationships +]
+DDP: [+ ddp_relation +]
 
-DVP: [+ dvp_relation : relationships +]
+DVP: [+ dvp_relation +]
 
-KPD: [+ kpd_relation : relationships +]
+KPD: [+ kpd_relation +]
 
-DNVP: [+ dnvp_relation : relationships +]
+DNVP: [+ dnvp_relation +]
 
-NSDAP: [+ nsdap_relation : relationships +]
+NSDAP: [+ nsdap_relation +]
 
 = Internal Factions of the SPD
 
-Left strength: [+ left_strength : strength +], dissent: [+ left_dissent : dissent +]
+Left strength: [+ left_strength +], dissent: [+ left_dissent +]
 
-Center strength: [+ center_strength : strength +], dissent: [+ center_dissent : dissent +]
+Center strength: [+ center_strength +], dissent: [+ center_dissent +]
 
-Labor strength: [+ labor_strength : strength +], dissent: [+ labor_dissent : dissent +]
+Labor strength: [+ labor_strength +], dissent: [+ labor_dissent +]
 
-Reformist strength: [+ reformist_strength : strength +], dissent: [+ reformist_dissent : dissent +]
+Reformist strength: [+ reformist_strength +], dissent: [+ reformist_dissent +]
 
-[? if neorevisionism > 0 : Neorevisionist strength: [+ neorevisionist_strength : strength +], dissent: [+ neorevisionist_dissent : dissent +] ?]
+[? if neorevisionism > 0 : Neorevisionist strength: [+ neorevisionist_strength +], dissent: [+ neorevisionist_dissent +] ?]
 
 
 @paramilitaries
@@ -138,31 +138,31 @@ Reichswehr: [+ army_force +]%
 
 Reichsbanner Strength: [+ rb_strength_2 +] thousand
 
-Reichsbanner Militarization: [+ rb_militancy : militancy +]
+Reichsbanner Militarization: [+ rb_militancy +]
 
 RFB Strength: [+ rfb_strength_2 +] thousand
 
-RFB Militarization: [+ rfb_militancy : militancy +]
+RFB Militarization: [+ rfb_militancy +]
 
 Stahlhelm Strength: [+ sh_strength_2 +] thousand
 
-Stahlhelm Militarization: [+ sh_militancy : militancy +]
+Stahlhelm Militarization: [+ sh_militancy +]
 
 SA Strength: [+ sa_strength_2 +] thousand
 
-SA Militarization: [+ sa_militancy : militancy +]
+SA Militarization: [+ sa_militancy +]
 
 = Official military/paramilitaries
 
 Reichswehr: [+ reichswehr_strength +] thousand troops.
 
-Reichswehr Loyalty: [+ reichswehr_loyalty : loyalty +]
+Reichswehr Loyalty: [+ reichswehr_loyalty +]
 
 Prussian police: [+ prussian_police_strength +] thousand members.
 
-Prussian police loyalty: [+ prussian_police_loyalty : loyalty +]
+Prussian police loyalty: [+ prussian_police_loyalty +]
 
-[? if spd_in_government : Interior police loyalty: [+ interior_police_loyalty : loyalty +] ?]
+[? if spd_in_government : Interior police loyalty: [+ interior_police_loyalty +] ?]
 
 @polls
 on-arrival: {!
