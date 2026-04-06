@@ -20,6 +20,7 @@ on-arrival: republic_percent = (republic_strength/(republic_strength+national_st
 - @offensive: Focus our aid on attacking the Nationalists.
 - @defensive: Focus our aid on defending the Republicans.
 - @easy_discard
+- @cancel_advisor_action
 
 @increase_aid
 subtitle: -1 budget.
