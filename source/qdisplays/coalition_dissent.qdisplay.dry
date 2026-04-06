@@ -1,9 +1,9 @@
 
-(..0) very low 0
-(1..1) low 1
-(2..2) medium 2
-(3..3) high 3 
-(4..4) very high 4
-(5..5) very high 5
-(6..6) very high 6
-(7..) very high 7+
+(..0) Very low 0
+(1..1) Low 1
+(2..2) Medium 2
+(3..3) High 3 
+(4..4) Very high 4
+(5..5) Extremely high 5
+(6..6) Unreasonably high 6
+(7..) Get help 7+
