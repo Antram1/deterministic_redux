@@ -19,6 +19,7 @@ We must do something to protect the workers against these predations.
 - @peace: Try to avoid all militant confrontations, as much as possible.
 - @truce_rfb: Try to make peace with the RFB.
 - @easy_discard
+- @cancel_advisor_action
 
 @battle
 view-if: rb_militancy > 0.1 and rb_militancy < 0.5
