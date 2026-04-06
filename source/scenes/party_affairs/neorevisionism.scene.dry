@@ -16,6 +16,7 @@ Several young socialists, led by Carlo Mierendorff, are calling for a "new revis
 - @support_neo: Support the neorevisionist movement.
 - @no_new_ideas: We don't need new ideas.
 - @easy_discard
+- @cancel_advisor_action
 
 @support_neo
 on-arrival: neorevisionist_strength += 10; nazi_urgency += 1; neorevisionism = 1; peoples_party_support += 1
