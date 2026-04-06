@@ -19,6 +19,7 @@ In addition to being a political party, the SPD is a social world onto itself, w
 - @youth: We have the reputation of being a party for old men. Support the youth organizations.
 - @nothing: Do not increase funding for any program.
 - @easy_discard
+- @cancel_advisor_action
 
 @newspapers
 choose-if: resources > 0
