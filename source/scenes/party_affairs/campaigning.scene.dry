@@ -19,6 +19,7 @@ Whether or not we are in an electoral campaign, the party is always trying to br
 - @catholics: Catholics, who typically support the Center Party.
 - @root: We either don't want to or cannot campaign right now.
 - @easy_discard
+- @cancel_advisor_action
 
 @workers
 subtitle: -1 resources
