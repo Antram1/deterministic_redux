@@ -21,6 +21,7 @@ Current loyalty: [+ postal_loyalty : loyalty +]
 - @infiltrate_bourgeois: Infiltrate and hijack bourgeois mail.
 - @leak_blackmail: Release the blackmail we have compiled on the bourgeois parties.
 - @militarize: Militarize the postmen.
+- @cancel_advisor_action
 
 @postal_loyalty
 on-arrival: postal_loyalty += 0.05
