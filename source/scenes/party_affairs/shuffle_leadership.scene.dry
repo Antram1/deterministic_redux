@@ -15,7 +15,7 @@ Removing advisors will increase dissent from their faction of the party, while s
 - @add_advisors: Add advisors
 - @remove_none: Don't change advisors.
 - @easy_discard
-
+- @cancel_advisor_action
 
 ###################### removing leaders
 
